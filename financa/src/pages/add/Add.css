@@ -1,0 +1,20 @@
+.secundary_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 5%;
+}
+
+.datagrid_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 590px) {
+    .datagrid_section {padding-left: 15%;}
+  }
+
+  @media only screen and (max-width: 500px) {
+    .datagrid_section {padding-left: 30%;}
+  }

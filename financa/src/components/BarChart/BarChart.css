@@ -1,0 +1,7 @@
+.barchart_div {
+    margin-right: -40%;
+}
+
+@media only screen and (max-width: 900px) {
+    .barchart_div {margin-right: 0px;}
+  }

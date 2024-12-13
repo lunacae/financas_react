@@ -1,0 +1,13 @@
+.list_div_section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+@media only screen and (max-width: 430px) {
+    .list_div_section {padding-left: 15%;}
+  }
+
+.table_div {
+    width: 500;
+}
